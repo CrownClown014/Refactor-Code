@@ -1,4 +1,6 @@
+/*All elements subject to the following styling*/
 * {
+    /*tells the browser to account for an border and padding values*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -7,15 +9,16 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*sets the padding to 20px between the content and it border*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*Box */
 .header h1 {
+    /*top and bottom margins/padding repsected. allows to set the width and height of an element, does not add line break so elements can sit next to other elements*/
     display: inline-block;
     font-size: 48px;
 }
@@ -23,7 +26,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*updated div to semantic element Section.  This code is affecting the entire section applying the box-modal, location, font, and size*/
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,11 +34,13 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+/*updated div to semantic element Section.  This code is affecting the <ul> applying the box-modal, location, font, and size*/
 
 .header section ul {
     list-style-type: none;
 }
-
+/*updated div to semantic element Section.  This code is affecting the <li> applying the box-modal, location, font, and size*/
+/*Box*/
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
@@ -58,12 +63,12 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*placing the headings left within it container*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*placing the heading right withing its container*/
 .float-right {
     float: right;
     margin-left: 25px;
@@ -117,7 +122,9 @@ p {
 }
 
 .benefit-lead img {
+    /*starts new line and take available screen width*/
     display: block;
+    /*creating margin top/bottom of 10px and right/left as auto*/
     margin: 10px auto;
     max-width: 150px;
 }
@@ -131,6 +138,7 @@ p {
 .benefit-cost img {
     display: block;
     margin: 10px auto;
+    /*setting the maximum width of the element as 150px*/
     max-width: 150px;
 }
 
@@ -162,14 +170,17 @@ p {
 }
 
 .search-engine-optimization img {
+    /*sets max height of image to 200px*/
     max-height: 200px;
 }
 
 .online-reputation-management img {
+    /*sets max height of image to 200px*/
     max-height: 200px;
 }
 
 .social-media-marketing img {
+    /*sets max height of image to 200px*/
     max-height: 200px;
 }
 
